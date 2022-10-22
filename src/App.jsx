@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import Main from './components/Main'
-import { NavBar } from './components/NavBar'
 
 function App() {
   return (
-    <div className='bg-gray-200 py-8'>
-      <NavBar />
+    <div className='bg-[#343a40] text-white py-8'>
       <Main />
     </div>
   )
